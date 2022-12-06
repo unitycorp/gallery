@@ -707,7 +707,7 @@ figure.effect-sadie:hover p {
 	.tm-brand-icon { 
 		font-size: 4rem;
     	padding: 10px;
-		margin-right: 15px;
+		margin-right: auto;
 	}
 	.tm-navbar-bg { padding-left: 30px; }
 }
