@@ -51,7 +51,7 @@ a:focus {
 .cd-hero-slider .cd-full-width { padding-top: 0; }
 
 .cd-slider-nav {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -67,7 +67,10 @@ a:focus {
 	display: inline-block;
 	float: none;
 	vertical-align: top;
+	
 }
+
+
 
 .cd-slider-nav li { 
 	display: block;
@@ -87,6 +90,7 @@ a:focus {
 	padding-right: 10px;
 	background-color: rgba(255,255,255,0.7);
 	overflow: auto;
+	
 }
 
 .navbar-toggler {
@@ -862,3 +866,9 @@ figure.effect-sadie:hover p {
 	margin-top: 10px;
 
 }
+.Galleyword{
+	font-size: 3rem;
+	margin-right: auto;
+	margin-top: 20px;
+}
+

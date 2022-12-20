@@ -1,0 +1,95 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px auto;
+    background: url(homeimg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    font-family: sans-serif,serif;
+}
+
+.navhome{
+    list-style: none;
+    border: 20px;
+    background-color:rgba(46, 185, 219, 0.7);
+    padding: 10px;
+    margin:0px;
+    display: flex;
+    
+}
+li {
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin:12px 0px 0px  10px;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+
+}
+a:hover {
+    transform: scale(1.1);
+    
+    
+        
+}
+
+.right {
+    margin-left: auto !important;
+}
+h1 {
+    font-size: 5rem ;
+    color:rgb(0, 255, 0) ;
+    text-align: center;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 2rem ;
+    color:rgb(255, 255, 255) ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -40px;
+}
+strong{
+    color: rgb(255, 0, 0);
+    font-size: 1.5em;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.hrstyle{
+    
+    margin-top: 0px;
+}
+
+/* Media Queries */
+
+
+
+@media only screen and (max-width:450px){
+	.xs{
+        font-size: 1.2rem;
+    }
+    .center img{
+        height: 70%;
+        width: 70%;
+        margin-top: 100px;
+    }
+    h1{
+        font-size:4rem;
+    }
+    
+    h4{
+        font-size: 2rem;
+        margin-top: -20px;
+    }
+
+}
