@@ -5,16 +5,34 @@ body{
     min-height: 100vh;
     width: 100%;
     margin: 0px auto;
-    background: url(homeimg.jpg) no-repeat center center fixed;
+    /* background: url(homeimg.jpg) no-repeat center center fixed; */
     background-size: cover;
     position: fixed;
     font-family: sans-serif,serif;
 }
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+    /* min-width: 100%;
+    min-height: 100%; */
+    z-index: -1;
+  }
+  
 
 .navhome{
     list-style: none;
     border: 20px;
-    background-color:rgba(46, 185, 219, 0.7);
+    /* background-color:rgba(46, 185, 219, 0.7); */
+    background-color:rgba(255, 255, 255, 0.1);
+
     padding: 10px;
     margin:0px;
     display: flex;
@@ -42,6 +60,7 @@ a:hover {
 .right {
     margin-left: auto !important;
 }
+
 h1 {
     font-size: 5rem ;
     color:rgb(255, 255, 255) ;
